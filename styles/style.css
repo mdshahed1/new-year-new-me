@@ -4,9 +4,9 @@
     /* font-family: 'Inter', sans-serif; */
 }
 
-/* header section styles */
+/* banner section styles */
 
-.header{
+.banner{
     background-image: url(../images/banner/banner3.png);
     background-size: contain;
     height: 465px;
@@ -14,14 +14,14 @@
     padding-right: 170px;
     text-align: right;
 }
-.header-title{
+.banner-title{
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
     color: #FFFFFF;
     margin-left: 650px;
 }
-.header-description{
+.banner-description{
     line-height: 26px;
     color: #FFFFFF;
     margin-top: 24px;
@@ -43,7 +43,7 @@
 /* main section */
 
 main{
-    width: 1140px;
+    max-width: 1140px;
     border: 1px solid red;
 }
 
@@ -57,9 +57,9 @@ main{
 }
 .section-title{
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 }
 .my-failure .section-description{
     margin-top: 24px;
@@ -82,6 +82,39 @@ li{
 
 /* plan section styles */
 
+.plan{
+    text-align: center;
+}
 .plan-info-container{
     display: flex;
+    padding-top: 50px;
+}
+.info-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.info-description{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* mindset section styles */
+.mindset{
+    margin: 130px 0;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.mindset-info{
+    text-align: left;
+    padding: 60px  65px ;
+}
+.mindset .section-title{
+    margin-bottom: 27px;
+    color: #FFFFFF;
 }
