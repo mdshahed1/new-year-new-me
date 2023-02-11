@@ -5,6 +5,7 @@
 }
 
 /* header section styles */
+
 .header{
     background-image: url(../images/banner/banner3.png);
     background-size: contain;
@@ -28,7 +29,6 @@
     margin-left: 680px;
 }
 .btn-primary{
-    
     height: 64px;
     width: 160px;
     color: #005FAC;
@@ -38,4 +38,50 @@
     border: 0;
     border-radius: 5px;
     background-color: #FFFFFF;
+}
+
+/* main section */
+
+main{
+    width: 1140px;
+    border: 1px solid red;
+}
+
+/* my failure section styles */
+
+.my-failure{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 130px 50px 130px 20px;
+}
+.section-title{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.my-failure .section-description{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+li{
+    list-style: none;
+    margin-bottom: 8px;
+    color: #444343;
+}
+.fa-check{
+    color: #16D887;
+    margin-right: 10px;
+}
+.my-failure-info{
+    padding-top: 100px;
+}
+
+/* plan section styles */
+
+.plan-info-container{
+    display: flex;
 }
