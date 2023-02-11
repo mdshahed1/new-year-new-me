@@ -1,7 +1,6 @@
 *{
     margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
-    /* font-family: 'Inter', sans-serif; */
 }
 
 /* banner section styles */
@@ -78,6 +77,9 @@ li{
 .my-failure-info{
     padding-top: 100px;
 }
+.my-failure-info ul{
+    padding-left: 0;
+}
 
 /* plan section styles */
 
@@ -103,6 +105,7 @@ li{
 }
 
 /* mindset section styles */
+
 .mindset{
     margin: 130px 0;
     background-image: url(../images/gradient1.png), url(../images/watch.png);
@@ -120,6 +123,7 @@ li{
 }
 
 /* future section styles */
+
 .future{
     display: flex;
     gap: 280px;
